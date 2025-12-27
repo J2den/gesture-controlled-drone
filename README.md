@@ -45,8 +45,11 @@ I attempted to solve this by adding delays between commands, but this only incre
 
 To fix the issue, I refactored the control logic by converting gesture commands into dedicated functions instead of repeatedly triggering them inside a loop. This change ensured that each gesture resulted in a single, intentional command rather than multiple repeated executions. This also made the code much more organized and efficient.
 
-
 Another problem arised when the drone would not connect simultaneously with the IMU. This was a major problem because I needed both the IMU and the drone to connect to the computer to make the gesture controls work. The problem was that the two connections were operating on different parallels and could not operate asynchronously alongside each other.
+
+<p align="center">
+  <img src="/Gifs/BLE-Drone-flow.png" width="500" />
+</p>
 
 After troubleshooting the issue, I discovered that the problem was related to how sensor data was being handled in the program. By using asyncio, I was able to run the IMU data stream asynchronously alongside the drone control code. This allowed the IMU to continuously send data without blocking other processes, successfully restoring sensor communication.
 
