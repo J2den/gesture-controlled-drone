@@ -1,4 +1,4 @@
-# gesture-controlled-drone
+# Gesture controlled Drone Project
 This project explores controlling a commercial drone using hand gestures instead of a traditional remote controller. By translating human motion into real-time flight commands, the project investigates more intuitive and accessible methods of human-drone interaction.
 
 Conventional drone controllers require extensive practice and fine motor control skills. Gesture-based control has the potential to:
