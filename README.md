@@ -22,15 +22,20 @@ I began the project by coding keyboard-based flight controls to test whether the
 
 I was also able to connect the drone’s camera to stream real-time video to my computer. This allowed me to observe the drone’s movement during flight. Both movement and live vision were laggy, but I had a functional baseline system.
 
-![Keyboard](/Gifs/keyboard_rotate.gif)
-
+<p align="center">
+    <img src="/Gifs/keyboard_rotate.gif" width="500" />
+</p>
 
 
 Next, I attempted to integrate the IMU to enable hand-gesture control. Initially, the IMU would not connect to the computer, preventing me from accessing orientation and motion data needed for gesture recognition. I discovered that it would be easier to connect the IMU through bluetooth rather than through the USB port.
 
-
-
 With the IMU connected, I began implementing gesture-based commands using loops and multiple if and if-else statements. I successfully programmed the drone to take off and land based on detected hand movements.
+
+
+<p align="center">
+    <img src="/Gifs/IMU_takeoffland.gif" width="500" />
+</p>
+
 
 However, a major issue appeared: the drone would continue taking off even when I stopped moving my hand. This made the behavior unpredictable and unsafe. At first, it was unclear whether the issue was related to sensor noise or the logic of the control code.
 
