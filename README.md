@@ -22,6 +22,8 @@ I began the project by coding keyboard-based flight controls to test whether the
 
 I was also able to connect the drone’s camera to stream real-time video to my computer. This allowed me to observe the drone’s movement during flight. Both movement and live vision were laggy, but I had a functional baseline system.
 
+![Keyboard](/Gifs/keyboard_rotate.gif)
+
 
 
 Next, I attempted to integrate the IMU to enable hand-gesture control. Initially, the IMU would not connect to the computer, preventing me from accessing orientation and motion data needed for gesture recognition. I discovered that it would be easier to connect the IMU through bluetooth rather than through the USB port.
