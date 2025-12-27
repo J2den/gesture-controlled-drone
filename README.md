@@ -47,7 +47,7 @@ After troubleshooting the issue, I discovered that the problem was related to ho
 
 
 <p align="center">
-  <img src="Gesture_takeoffforward.gif" width="250" />
-  <img src="Gesture_4direction.gif" width="250" />
-  <img src="Gesture_land.gif" width="250" />
+  <img src="/Gifs/Gesture_takeoffforward.gif" width="250" />
+  <img src="/Gifs/Gesture_4direction.gif" width="250" />
+  <img src="/Gifs/Gesture_land.gif" width="250" />
 </p>
