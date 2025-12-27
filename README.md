@@ -46,3 +46,8 @@ Another problem arised when the drone would not connect simultaneously with the 
 After troubleshooting the issue, I discovered that the problem was related to how sensor data was being handled in the program. By using asyncio, I was able to run the IMU data stream asynchronously alongside the drone control code. This allowed the IMU to continuously send data without blocking other processes, successfully restoring sensor communication.
 
 
+<p align="center">
+  <img src="Gesture_takeoffforward.gif" width="250" />
+  <img src="Gesture_4direction.gif" width="250" />
+  <img src="Gesture_land.gif" width="250" />
+</p>
